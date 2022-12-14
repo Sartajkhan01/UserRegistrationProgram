@@ -9,7 +9,8 @@ namespace UserRegistrationPrograms
             DataValidation validating = new DataValidation();
             bool end = true;
             Console.WriteLine("1. Validate First Name\n2. Validate Last Name\n3. Validate Email\n4. " +
-                "Validate Phone Number\n5. Validate Password With Rule 1\n6. Validate Password With Rule 2\n7. End The Program");
+                "Validate Phone Number\n5. Validate Password With Rule 1\n6. Validate Password With Rule 2\n7." +
+                " Validate Password With Rule 3\n8. End The Program");
             while (end)
             {
                 Console.Write("Choose an option to execute : ");
@@ -40,6 +41,10 @@ namespace UserRegistrationPrograms
                         validate2.ValidatePassword2();
                         break;
                     case 7:
+                        PasswordRules validate3 = new PasswordRules();
+                        validate3.ValidatePassword3();
+                        break;
+                    case 8:
                         end = false;
                         break;
                     default:
