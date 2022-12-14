@@ -54,6 +54,21 @@ namespace UserRegistrationPrograms
                 Console.WriteLine("Invalid passord");
             }
         }
+        public Regex Password_Regex4 = new Regex("^[A-Za-z]{6,}[A-Z]{1,}[0-9]{1,}[-~!@#$%^*()_+{}:|?`;',]{1,}$");
+        public void ValidatePassword4()
+        {
+            Console.Write("Enter the password : ");
+            string password4 = Console.ReadLine();
+
+            if (Password_Regex4.IsMatch(password4))
+            {
+                Console.WriteLine("The password is valid ");
+            }
+            else
+            {
+                Console.WriteLine("Invalid passord");
+            }
+        }
 
     }
 }

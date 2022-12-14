@@ -10,7 +10,7 @@ namespace UserRegistrationPrograms
             bool end = true;
             Console.WriteLine("1. Validate First Name\n2. Validate Last Name\n3. Validate Email\n4. " +
                 "Validate Phone Number\n5. Validate Password With Rule 1\n6. Validate Password With Rule 2\n7." +
-                " Validate Password With Rule 3\n8. End The Program");
+                " Validate Password With Rule 3\n8. Validate Password With Rule 4\n9. End The Program");
             while (end)
             {
                 Console.Write("Choose an option to execute : ");
@@ -45,6 +45,10 @@ namespace UserRegistrationPrograms
                         validate3.ValidatePassword3();
                         break;
                     case 8:
+                        PasswordRules validate4 = new PasswordRules();
+                        validate4.ValidatePassword4();
+                        break;
+                    case 9:
                         end = false;
                         break;
                     default:
