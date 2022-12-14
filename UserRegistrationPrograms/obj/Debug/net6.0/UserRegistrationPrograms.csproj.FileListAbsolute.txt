@@ -1,0 +1,15 @@
+C:\Users\Sartaj khan\source\repos\UserRegistrationPrograms\UserRegistrationPrograms\obj\Debug\net6.0\UserRegistrationPrograms.csproj.AssemblyReference.cache
+C:\Users\Sartaj khan\source\repos\UserRegistrationPrograms\UserRegistrationPrograms\obj\Debug\net6.0\UserRegistrationPrograms.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sartaj khan\source\repos\UserRegistrationPrograms\UserRegistrationPrograms\obj\Debug\net6.0\UserRegistrationPrograms.AssemblyInfoInputs.cache
+C:\Users\Sartaj khan\source\repos\UserRegistrationPrograms\UserRegistrationPrograms\obj\Debug\net6.0\UserRegistrationPrograms.AssemblyInfo.cs
+C:\Users\Sartaj khan\source\repos\UserRegistrationPrograms\UserRegistrationPrograms\obj\Debug\net6.0\UserRegistrationPrograms.csproj.CoreCompileInputs.cache
+C:\Users\Sartaj khan\source\repos\UserRegistrationPrograms\UserRegistrationPrograms\bin\Debug\net6.0\UserRegistrationPrograms.exe
+C:\Users\Sartaj khan\source\repos\UserRegistrationPrograms\UserRegistrationPrograms\bin\Debug\net6.0\UserRegistrationPrograms.deps.json
+C:\Users\Sartaj khan\source\repos\UserRegistrationPrograms\UserRegistrationPrograms\bin\Debug\net6.0\UserRegistrationPrograms.runtimeconfig.json
+C:\Users\Sartaj khan\source\repos\UserRegistrationPrograms\UserRegistrationPrograms\bin\Debug\net6.0\UserRegistrationPrograms.dll
+C:\Users\Sartaj khan\source\repos\UserRegistrationPrograms\UserRegistrationPrograms\bin\Debug\net6.0\UserRegistrationPrograms.pdb
+C:\Users\Sartaj khan\source\repos\UserRegistrationPrograms\UserRegistrationPrograms\obj\Debug\net6.0\UserRegistrationPrograms.dll
+C:\Users\Sartaj khan\source\repos\UserRegistrationPrograms\UserRegistrationPrograms\obj\Debug\net6.0\refint\UserRegistrationPrograms.dll
+C:\Users\Sartaj khan\source\repos\UserRegistrationPrograms\UserRegistrationPrograms\obj\Debug\net6.0\UserRegistrationPrograms.pdb
+C:\Users\Sartaj khan\source\repos\UserRegistrationPrograms\UserRegistrationPrograms\obj\Debug\net6.0\UserRegistrationPrograms.genruntimeconfig.cache
+C:\Users\Sartaj khan\source\repos\UserRegistrationPrograms\UserRegistrationPrograms\obj\Debug\net6.0\ref\UserRegistrationPrograms.dll
