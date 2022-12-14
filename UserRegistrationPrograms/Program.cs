@@ -10,7 +10,7 @@ namespace UserRegistrationPrograms
             bool end = true;
             Console.WriteLine("1. Validate First Name\n2. Validate Last Name\n3. Validate Email\n4. " +
                 "Validate Phone Number\n5. Validate Password With Rule 1\n6. Validate Password With Rule 2\n7." +
-                " Validate Password With Rule 3\n8. Validate Password With Rule 4\n9. End The Program");
+                " Validate Password With Rule 3\n8. Validate Password With Rule 4\n9. Validate Email Samples\n10. End The Program");
             while (end)
             {
                 Console.Write("Choose an option to execute : ");
@@ -49,6 +49,18 @@ namespace UserRegistrationPrograms
                         validate4.ValidatePassword4();
                         break;
                     case 9:
+                        EmailSampleValidation emailvalidation = new EmailSampleValidation();
+                        emailvalidation.ValidateEmail("abc@yahoo.com");
+                        emailvalidation.ValidateEmail("abc-100@yahoo.com");
+                        emailvalidation.ValidateEmail("abc.100@yahoo.com");
+                        emailvalidation.ValidateEmail("abc111@abc.com");
+                        emailvalidation.ValidateEmail("abc-100@abc.net");
+                        emailvalidation.ValidateEmail("abc.100@abc.com.au");
+                        emailvalidation.ValidateEmail("abc@1.com");
+                        emailvalidation.ValidateEmail("abc@gmail.com.com");
+                        emailvalidation.ValidateEmail("abc+100@gmail.com");
+                        break;
+                    case 10:
                         end = false;
                         break;
                     default:
