@@ -12,6 +12,8 @@ namespace UserRegistrationPrograms
         public Regex First_Name_Regex = new Regex(@"^[A-Z]{1}[A-Za-z]{2,}?$");
         public Regex Last_Name_Regex = new Regex(@"^[A-Z]{1}[A-Za-z]{2,}?$");
         public Regex Email_Regex = new Regex("^[A-Za-z]{3,}([.][A-Za-z]{3,})?[@][A-Za-z]{2,}[.][A-Za-z]{2,}([.][A-Za-z]{2})?$");
+                                                    //("abc.xyz@bl.co.in")
+        
         public void ValidateFirstName()
         {
             Console.Write("Enter First Name : ");
